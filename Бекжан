@@ -1,0 +1,10 @@
+# Пайдаланушыдан сан енгізуді сұраймыз
+a = int(input("San engiz: "))
+
+# Санның 0-ден кіші, үлкен немесе тең екенін тексереміз
+if a < 0:
+    print(a, "nolden kishi")
+elif a == 0:
+    print(a, "nolge ten")
+else:
+    print(a, "nolden ulken")
